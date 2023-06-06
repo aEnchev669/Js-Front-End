@@ -1,0 +1,25 @@
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+
+.button {
+    border: 2px solid rgb(51, 51, 51);
+    padding: 4px 16px;
+    border-radius: 16px;
+    background-color: transparent;
+    cursor: pointer;
+    color: rgb(51, 51, 51);
+    outline: none;
+}
+
+body a:nth-child(3n + 1):hover {
+    border-color: rgb(0, 102, 0);
+    color: rgb(0, 102, 0);
+}
+
+.fill {
+    color: rgb(251, 251, 251);
+    background-color: rgb(51, 51, 51);
+}
+
+.hover:hover {
+    color: rgb(251, 251, 251);
+}
