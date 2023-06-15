@@ -1,0 +1,24 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+li {
+    display: inline-wblock;
+}
+
+h1 {
+    display: inline;
+}
+
+nav {
+    display: inline-block;
+}
+
+a {
+    display: inline;
+    color: green;
+}
+
+ul {
+    display: inline;
+}
