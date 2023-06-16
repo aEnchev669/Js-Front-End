@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Picture with Text</title>
+    <style>
+        .container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .image {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .text {
+            position: absolute;
+            top: 90%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 24px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="image" src="images/picture1.jpg" alt="Image Description">
+        <div class="text">
+            This is the text on the picture.
+        </div>
+    </div>
+</body>
+</html>
