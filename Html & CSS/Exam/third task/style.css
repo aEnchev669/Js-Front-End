@@ -1,0 +1,167 @@
+/* 800 x 600 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+
+
+
+
+
+
+
+
+html {
+    max-width: 1820px;
+}
+
+body {
+    max-width: 1820px;
+}
+
+/* background-color - #ade2df 
+
+*/
+.first-section {
+    background-color: #ade2df;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.word-topbar {
+    display: flex;
+
+}
+
+.word-topbar li {
+    margin-left: 30px;
+
+}
+
+.login {
+    background-color: white;
+    border: 0px;
+}
+
+.sing {
+    background-color: #ade2df;
+    border: 0;
+    border-radius: 4px;
+    padding: 7px 10px;
+    margin-right: 80px;
+}
+
+.first-section h2 {
+    display: flex;
+    justify-content: center;
+    font-weight: 1000;
+    font-size: 35px;
+    padding-top: 35px;
+    margin-bottom: 10px;
+}
+
+.first-section p {
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+}
+
+
+
+.Android {
+
+    background-color: black;
+    border: 0;
+    color: white;
+    border-radius: 4px;
+    padding: 7px 10px;
+    font-size: 7px;
+    margin-bottom: 30px;
+}
+
+
+.iOS {
+    margin-left: 300px;
+    background-color: black;
+    border: 0;
+    color: white;
+    border-radius: 4px;
+    padding: 7px 10px;
+    font-size: 7px;
+}
+
+.ul-sec {
+    display: flex;
+    padding-left: 130px;
+    width: 70%;
+}
+
+.ul-sec h3 {
+    text-align: center;
+}
+
+.ul-sec li {
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+
+.ul-sec p {
+    text-align: center;
+    font-size: 11px;
+}
+
+.third-section {
+    display: flex;
+    background-color: #ade2df;
+}
+
+.phone {
+    width: 70%;
+    padding-left: 200px;
+}
+
+.photo-third {
+    width: 80%;
+
+    border: 1px dashed gray;
+}
+
+.head {
+    padding-left: 39px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.ul-third li h4 {
+    font-size: 15px;
+
+}
+
+.span {
+    margin-bottom: 50px;
+    margin-left: 40px;
+    text-decoration: underline;
+}
+
+.section-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.section-4 div button {
+    margin-left: 140px;
+    margin-top: 20px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #ade2df;
+    padding: 5px 8px;
+
+}
+
+.section-4 div h4 {
+    font-size: 30px;
+
+}
