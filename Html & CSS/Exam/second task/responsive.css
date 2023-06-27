@@ -1,0 +1,100 @@
+html {
+    max-width: 600px;
+}
+
+.home-hero {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.home-image1 {
+    display: flex;
+    position: absolute;
+    top: 0;
+    width: 500px;
+    align-items: center;
+
+}
+
+.home-heading {
+    padding-top: 200px;
+}
+
+.home-text {
+    display: inline-block;
+    width: 100%;
+    white-space: normal;
+}
+
+.home-text03 {
+    line-height: 1.5em;
+    height: 3em;
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+
+}
+
+.home-text04 {
+    padding: 0;
+    margin: 0;
+}
+
+.home-cards-container {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+}
+
+.home-stats {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    position: absolute;
+    top: 4100px;
+    width: 50%;
+
+}
+
+.home-feature-card {
+    align-self: center;
+}
+
+.home-text12 {
+    line-height: 1.5em;
+    height: 3em;
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+
+}
+
+.home-text16 {
+    height: 3em;
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+
+.home-text21 {
+    height: 3em;
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+
+.home-text25 {
+    height: 3em;
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+}
