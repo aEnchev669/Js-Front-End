@@ -1,0 +1,59 @@
+/*
+backgroung color - #efefef
+text and icons color - #909090
+black - #222222
+*/
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #222222;
+}
+
+/*golab style*/
+.page-section .title {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.page-section .title .bolded {
+    font-weight: bold;
+}
+
+/*first section*/
+.page-section {
+    max-width: 1880px;
+    margin-top: 24px;
+    background-color: #efefef;
+    padding: 50px 10px;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.page-section .info {
+    width: 40%;
+}
+
+.menu-section {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.first {
+    background-color: #efefef;
+}
+
+#first.page-section {
+    position: relative;
+
+}
+
+.first-img {
+    width: 50%;
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+    
+}
