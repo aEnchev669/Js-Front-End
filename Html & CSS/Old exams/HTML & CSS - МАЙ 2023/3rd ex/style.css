@@ -1,0 +1,97 @@
+body {
+    max-width: 1000x;
+    background: url(image/fitness-main.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+header {}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #d01919;
+    padding: 8px;
+}
+
+.logos {
+    display: flex;
+}
+
+.logos li a {
+    padding: 5px;
+    color: white;
+
+}
+
+.number {
+    color: white;
+}
+
+.location,
+.location i {
+    color: white;
+}
+
+.navigation {
+    display: flex;
+    justify-content: right;
+}
+
+.navigation li {
+    padding-top: 2px;
+    padding-left: 15px;
+    padding-right: 20px;
+    font-weight: 10px;
+}
+
+.navigation li a {
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+}
+
+.site {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.banner {
+    text-align: center;
+    color: white;
+}
+
+.banner p {
+
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.banner button {
+    background-color: #d01919;
+    color: white;
+    padding: 8px ;
+    border: 1px solid #d01919 ;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+.site-footer {
+    display: flex;
+    justify-content: center;
+    background-color: #d01919;
+    margin-top: auto;
+
+}
