@@ -1,6 +1,5 @@
 function showText() {
-    let btn = document.getElementById('more');
-    let span = document.getElementById('text');
+    document.getElementById('text').style.display = 'inline';
+    document.getElementById('more').style.display = 'none';
 
-    btn.addEventListener(onclick, span.display = 'block');
 }
