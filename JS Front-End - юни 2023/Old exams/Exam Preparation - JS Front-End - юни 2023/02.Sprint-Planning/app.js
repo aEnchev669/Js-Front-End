@@ -13,7 +13,8 @@ function solve() {
 
     function createTask(title, description, label, points, assignee) {
 
-        const article = document.createElement('article');
+        const article = document.createElement('article', null, ['task-card'], taskId);
+        article.classList.add()
         const div1 = document.createElement('div');
         const h3 = document.createElement('h3');
         const p = document.createElement('p');
