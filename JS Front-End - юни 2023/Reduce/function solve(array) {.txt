@@ -1,0 +1,26 @@
+function solve(array) {
+
+    const n = Number(array.splice(0, 1)[0]);
+    const tickets = array.splice(0, n);
+    const comamnds = array.splice(0, array.length);
+
+
+    const board = tickets.reduce((acc, curr) => {
+
+        const [assignee, taskId, title, status, points] = curr.split(':');
+
+        if (!acc.hasOwnProperty(assignee)) {
+            acc[assignee] = [];
+        }
+
+        acc[assignee].push({ taskId, title, status, points: Number(points) });
+
+        return acc;
+    }, {});
+
+
+    
+    console.log(JSON.stringify(board, null, 2));
+
+
+};
